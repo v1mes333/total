@@ -1,0 +1,265 @@
+.investors {
+    margin-top: 50px;
+}
+
+.block {
+    height: 120px;
+    position: relative;
+    display: block;
+}
+
+.hillel {
+    background-color: #1C4280;
+}
+
+.hillel::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 217px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/hillel.png);
+}
+
+.wannabiz {
+    background-color: #143646;
+}
+
+.wannabiz::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 199px;
+    height: 32px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/wannabiz.png);
+}
+
+.tapgerin {
+    background-color: rgba(244, 139, 48, 1);
+}
+
+.tapgerin::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 179px;
+    height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/tapgerine.png);
+}
+
+.dlook {
+    background-color: #9E4DC3;
+}
+
+.dlook::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 180px;
+    height: 42px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/3dlook.png);
+}
+
+.orangear {
+    background-color: #FD9339;
+}
+
+.orangear::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 174px;
+    height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/orangear.png);
+}
+
+.adtelligent {
+    background-color: #E2E2E4;
+}
+
+.adtelligent::after {
+    content: '';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 194.79px;
+    height: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/investors/adtellige.png);
+}
+
+@media (min-width: 768px) {
+    .investors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .block {
+        width: calc(100% / 3);
+    }
+
+    .clickky {
+    background-color: rgba(199, 28, 54, 1);
+    }
+
+    .clickky::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 138px;
+        height: 61px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/clikky.png);
+    }
+    
+    .ecoleasing {
+        background-color: rgba(220, 243, 249, 1);
+    }
+
+    .ecoleasing::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 146px;
+        height: 76px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/ecofasing.png);
+        }
+    
+    .infratek {
+        background-color: rgba(234, 234, 234, 1);
+    }
+
+    .infratek::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 182px;
+        height: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/infrateck.png);
+    }
+    
+    .citypark {
+        background-color: rgba(40, 34, 64, 1);
+    }
+
+    .citypark::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 181px;
+        height: 38px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/citypark.png);
+    }
+    
+    .art-print {
+        background-color: rgba(29, 69, 104, 1);
+    }
+
+    .art-print::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 189px;
+        height: 46px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/artprint.png);
+    }
+    
+    .ultimate {
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+    .ultimate::after {
+        content: '';
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        width: 152px;
+        height: 95px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/investors/ultimate.png);
+    }
+}
+
+@media (min-width: 1024px) {
+    .block {
+        width: calc(100% / 4);
+    }
+}
+
+@media (min-width: 1920px) {
+    .investors {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .hillel {
+        border-radius: 12px 0 0 0;
+    }
+
+    .dlook {
+        border-radius: 0 12px 0 0;
+    }
+
+    .infratek {
+        border-radius: 0 0 0 12px;
+    }
+
+    .ultimate {
+        border-radius: 0 0 12px 0;
+    }
+}

@@ -1,0 +1,196 @@
+.services {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.wrapper-services {
+    border-radius: 0px 0px 12px 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-services {
+    color: rgba(36, 163, 255, 1);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.button-services::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 70px;
+    transform: translate(-50%);
+    width: 5px;
+    height: 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/services/button.png);
+}
+
+.title-services {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    :last-child {
+        margin-bottom: 60px;
+    }
+}
+
+.title-card {
+    color: rgba(36, 163, 255, 1);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    position: relative;
+    margin: 0;
+}
+
+.text-card {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.img-card1::before {
+    content: url(../images/services/card-1.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.img-card2::before {
+    content: url(../images/services/card-2.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.img-card3::before {
+    content: url(../images/services/card-3.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.img-card4::before {
+    content: url(../images/services/card-4.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.img-card5::before {
+    content: url(../images/services/card-5.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.img-card6::before {
+    content: url(../images/services/card-6.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 14px;
+    margin-bottom: 30px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.botom-line {
+    background: #CACADB;
+    border-radius: 0px 0px 12px 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 10px;
+}
+
+.under-botom {
+    background: #E7E7F2;
+    border-radius: 0px 0px 12px 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 10px;
+}
+
+@media (min-width: 768px) {
+    .wrapper-services {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .cards {
+        gap: 60px;
+        margin-top: 60px;
+    }
+
+    .card {
+        width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: calc(33.33% - 40px);
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper-services {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+}
