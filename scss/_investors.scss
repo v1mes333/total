@@ -2,7 +2,7 @@
     margin-top: 50px;
 }
 
-.block {
+.block:nth-child(-n+6) {
     height: 120px;
     position: relative;
     display: block;
@@ -117,6 +117,12 @@
 }
 
 @media (min-width: 768px) {
+    .block{
+        height: 120px;
+        position: relative;
+        display: block;
+    }
+
     .investors {
         display: flex;
         flex-wrap: wrap;
@@ -138,6 +144,7 @@
         transform:translate(-50%, -50%);
         width: 138px;
         height: 61px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -156,6 +163,7 @@
         transform:translate(-50%, -50%);
         width: 146px;
         height: 76px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -174,6 +182,7 @@
         transform:translate(-50%, -50%);
         width: 182px;
         height: 60px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -192,6 +201,7 @@
         transform:translate(-50%, -50%);
         width: 181px;
         height: 38px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -210,6 +220,7 @@
         transform:translate(-50%, -50%);
         width: 189px;
         height: 46px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -228,6 +239,7 @@
         transform:translate(-50%, -50%);
         width: 152px;
         height: 95px;
+        display: block;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
