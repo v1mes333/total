@@ -5,13 +5,14 @@
     line-height: 17px;
     color: #24A3FF;
     text-decoration: none;
+    position: relative;
 }
 
 .button-publ::after {
     content: '';
     position: absolute;
     top: 25%;
-    left: 60px;
+    left: 100px;
     transform: translate(-50%);
     width: 5px;
     height: 9px;

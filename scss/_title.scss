@@ -1,0 +1,109 @@
+.wrapper-title {
+    height: 100vh;
+    background-color: rgba(50, 50, 100, 1);
+    position: relative;
+    background-image: url(../images/title/Symbol-375px.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 231px;
+}
+
+.title-text {
+    padding-left: 97px;
+    padding-right: 97px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.link-title::before {
+    content: url(../images/title/link.svg);
+    display: block;
+    width: 18px;
+    height: 9px;
+    padding: 18px 12px 15px 12px;
+    border: 2px solid rgba(152, 152, 178, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+}
+
+.link-title:hover::before {
+    content: url(../images/title/red-link.svg);
+    display: block;
+    width: 18px;
+    height: 9px;
+    padding: 18px 12px 15px 12px;
+    border: 2px solid rgba(145, 35, 95, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    
+}
+
+@media (min-width: 768px) {
+    .wrapper-title {
+        background-image: url(../images/title/Symbol-768px.svg);
+        padding-top: 489px;
+    }
+
+    .title-text {
+        text-align: center;
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+
+    .link-title::before {
+        top: 93%;
+        left: 47%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper-title {
+        background-image: url(../images/title/Symbol.svg);
+        background-size: 670px;
+        background-size: 768px;
+        background-position: center;
+        padding-top: 361px;
+    }
+
+    .link-title::before {
+        top: 91%;
+        left: 48%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper-title {
+        background-image: url(../images/title/Symbol-1440px.svg);
+        padding-top: 376px;
+    }
+
+    .link-title::before {
+        top: 91%;
+        left: 48%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper-title {
+        background-image: url(../images/title/Symbol-1920px.svg);
+        background-size: 873px;
+        background-size: 1000px;
+        padding-top: 477px;
+    }
+
+    .link-title::before {
+        top: 93%;
+        left: 49%;
+    }
+}
+
+
