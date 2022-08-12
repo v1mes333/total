@@ -1,0 +1,114 @@
+.wrapper-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 30px 30px 30px;
+}
+
+.scroll {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.midle {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.text-scrl {
+    height: 37px;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: grey;
+    white-space: nowrap;
+}
+
+.first-text {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-scrl:hover {
+    color: rgba(240, 20, 90, 1);
+}
+
+.line-ex {
+    height: 4px;
+    background-color: rgba(111, 111, 147, 1);
+}
+
+.title-info {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.text-info {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .wrapper-experience {
+        gap: 60px;
+        padding: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper-experience {
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .line-ex {
+        width: 4px;
+        height: 300px;
+    }
+
+    .info-ex {
+        padding: 10px 0 10px 0;
+        white-space: wrap;
+    }
+
+    .scroll {
+        flex-direction: column;
+        min-width: 375px;
+        align-items: flex-end;
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper-experience {
+        padding: 60px 180px 60px 180px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper-experience {
+        padding: 60px 280px 60px 280px;
+    }
+}
